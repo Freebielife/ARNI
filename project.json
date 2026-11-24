@@ -1,0 +1,110 @@
+{
+  "slug": "arni",
+  "name": "Arnold investment",
+  "symbol": "ARNI",
+  "master": "EQAZzZzhBdrPwxFVQHWlMHbDY_eOk3LeUPr07VWdX4B0193M",
+  "decimals": 9,
+  "github": {
+    "owner": "Freebielife",
+    "repo": "ARNI"
+  },
+  "pools": [
+    {
+      "address": "EQCgLnpHs2Cer8zoRPII_sb5W6t1LaXExPnBXJDg8-GXuHVM",
+      "dex": "stonfi",
+      "quote": "TON",
+      "evidence": "https://tonapi.io/v2/accounts/EQCgLnpHs2Cer8zoRPII_sb5W6t1LaXExPnBXJDg8-GXuHVM/events?limit=100"
+    }
+  ],
+  "primary_pool": "EQCgLnpHs2Cer8zoRPII_sb5W6t1LaXExPnBXJDg8-GXuHVM",
+  "links": {
+    "website": "https://arnold-arni.site/",
+    "telegram": "https://t.me/arnoldton"
+  },
+  "services": {
+    "UQD4uGNdB4a3f52mYOZf0x1nCmdd1DAvrLppL0a1cetTYCQx": "Binance",
+    "EQDPfqI17W9lF-3OmAJu92GOn22BoTMdTmW6cY4s0V-ArRRY": "Bybit",
+    "0:0000000000000000000000000000000000000000000000000000000000000000": "Zero address"
+  },
+  "engine_version": "1.3.0",
+  "discovery": {
+    "checkedAt": 1795548468,
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQAZzZzhBdrPwxFVQHWlMHbDY_eOk3LeUPr07VWdX4B0193M",
+      "https://api.geckoterminal.com/api/v2/networks/ton/tokens/EQAZzZzhBdrPwxFVQHWlMHbDY_eOk3LeUPr07VWdX4B0193M/pools?page=1"
+    ],
+    "primaryPoolPolicy": "largest indexed USD liquidity among swap-verified supported TON pools"
+  },
+  "project_description": {
+    "text": "Arnold investment (ARNI) — токен сети TON. В метаданных проект заявляет получение TON за удержание ARNI и указывает происхождение из sTONks. Официальный сайт описывает распределение TON держателям и дефляционный механизм. Эти заявления проекта не являются независимой проверкой выплат или доходности.",
+    "origin": "reviewed_sources",
+    "sources": [
+      "https://tonapi.io/v2/jettons/EQAZzZzhBdrPwxFVQHWlMHbDY_eOk3LeUPr07VWdX4B0193M",
+      "https://arnold-arni.site/",
+      "https://t.me/arnoldton",
+      "https://t.me/TonArnold"
+    ],
+    "checked_at": "2026-11-24"
+  },
+  "flag_file": "web/project-flag.webp",
+  "logo_file": "web/project-logo.webp",
+  "logo_origin": "user_attachment",
+  "logo_source": "libfile_e2df270cb12c81918c188ac512c351af",
+  "service_provenance": {
+    "0:f8b8635d0786b77f9da660e65fd31d670a675dd4302facba692f46b571eb5360": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:cf7ea235ed6f6517edce98026ef7618e9f6d81a1331d4e65ba718e2cd15f80ad": {
+      "category": "custody",
+      "source": "User-provided attribution, 2026-11-22; ownership not independently verified"
+    },
+    "0:0000000000000000000000000000000000000000000000000000000000000000": {
+      "category": "burn_address",
+      "source": "https://tonapi.io/v2/accounts/0:0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  },
+  "flag_source": "User-provided project emoji",
+  "template_repository": "Freebielife/TON-Observatory-Template",
+  "max_html_bytes": 2500000,
+  "ui": {
+    "holders_initial": 10,
+    "holders_expanded": 20
+  },
+  "methodology": {
+    "valuation": "last observed swap in primary_pool times CURRENT total supply; not circulating market cap",
+    "primary_pool": "EQCgLnpHs2Cer8zoRPII_sb5W6t1LaXExPnBXJDg8-GXuHVM",
+    "sellers": "sum of successful supported native TON swap sales; service roles excluded",
+    "holders": "balances excluding known services and identified contracts; unclassified accounts may remain until verified",
+    "burns": "accepted burn notifications and zero-address transfers shown as distinct evidence",
+    "usd": "historical TON/USD rate from CoinGecko",
+    "history": "incremental confirmed swaps; missing intervals remain partial"
+  },
+  "branding": {
+    "hero": {
+      "origin": "user_attachment",
+      "source": "libfile_e2df270cb12c81918c188ac512c351af",
+      "file": "web/project-logo.webp",
+      "approved_for": "banner and section flags, user instruction 2026-11-24"
+    },
+    "sectionFlag": {
+      "source": "User-provided project emoji",
+      "catalogueKey": null,
+      "emoji": null,
+      "file": "web/project-flag.webp"
+    },
+    "channel": "https://t.me/arnoldton",
+    "metadataLogo": {
+      "origin": "token_metadata",
+      "source": "https://static.tildacdn.com/tild3163-6438-4631-a534-373165636364/ARNI_Logo.png",
+      "file": "web/metadata-logo.webp"
+    }
+  },
+  "additional_links": [
+    {
+      "url": "https://t.me/TonArnold",
+      "label": "TonArnold"
+    }
+  ],
+  "template_commit": "65780137fa12eda7500f48d29c5b261411305274"
+}
